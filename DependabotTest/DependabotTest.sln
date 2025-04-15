@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependabotTest", "DependabotTest\DependabotTest.csproj", "{8C0EE77A-2D33-4C63-9683-B73C7CA6A0A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependabotTest", "DependabotTest.csproj", "{8C0EE77A-2D33-4C63-9683-B73C7CA6A0A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

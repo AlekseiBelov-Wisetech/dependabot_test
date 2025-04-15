@@ -14,7 +14,8 @@
         <PackageReference Include="Newtonsoft.Json" />
         <PackageReference Include="Polly" />
         <PackageReference Include="System.Data.SQLite" />
-        <PackageReference Include="Snappier" />
         <PackageReference Include="System.Net.Http" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
+        <PackageReference Include="Microsoft.Extensions.Logging" />
     </ItemGroup>
 </Project>
