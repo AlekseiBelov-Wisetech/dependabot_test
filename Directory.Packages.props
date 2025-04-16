@@ -16,6 +16,7 @@
         <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="3.1.32" />
         <PackageVersion Include="Microsoft.Extensions.Logging" Version="3.0.0" />
         <PackageVersion Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageVersion Include="NSwag.MSBuild" Version="14.0.3" />
         <PackageVersion Include="Polly" Version="8.5.1"/>
         <PackageVersion Include="System.Data.SQLite" Version="1.0.116" />
         <PackageVersion Include="Snappier" Version="1.1.0" />
