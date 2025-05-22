@@ -5,9 +5,8 @@ registries:
     url: https://api.nuget.org/v3/index.json
 updates:
   - package-ecosystem: nuget
-      directories:
-      - "/DependabotTest"
-      - "/TestProject2"
+    directories:
+      - "**/*"
     registries:
       - public-nuget
     schedule:
