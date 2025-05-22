@@ -2,7 +2,8 @@ version: 2
 updates:
   - package-ecosystem: "nuget"
     directories:
-      - "**/*"
+      - "/TestProject2"
+      - "/DependabotTest"
     schedule:
       interval: "daily"
 
