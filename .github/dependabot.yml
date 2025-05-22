@@ -1,9 +1,13 @@
 version: 2
+registries:
+  public-nuget:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json
 updates:
-  - package-ecosystem: "nuget"
-    directories:
-      - "/TestProject2"
-      - "/DependabotTest"
+  - package-ecosystem: nuget
+    directory: "/"
+    registries:
+      - public-nuget
     schedule:
       interval: "daily"
 
