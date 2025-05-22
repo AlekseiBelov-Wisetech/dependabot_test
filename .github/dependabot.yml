@@ -1,12 +1,9 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/TestProject2"
+    directory: "*"
     schedule:
       interval: "daily"
-  - package-ecosystem: "dotnet-sdk"
-    directory: "/"
-    schedule:
-      interval: "daily"
-
-
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
