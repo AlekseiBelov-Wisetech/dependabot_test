@@ -1,19 +1,11 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/TestProject2"
+    directories:
+      - "**/*"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 1
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
 
-  - package-ecosystem: "nuget"
-    directory: "/DependabotTest"
-    schedule:
-      interval: "daily"
-    open-pull-requests-limit: 1
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
