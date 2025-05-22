@@ -11,7 +11,7 @@
         <PackageReference Include="Microsoft.AspNetCore.App" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" />
         <PackageReference Include="Microsoft.Extensions.Caching.Memory" />
-        <PackageReference Include="Newtonsoft.Json" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
         <PackageReference Include="Polly" Version="8.5.1"/>
         <PackageReference Include="System.Data.SQLite" />
         <PackageReference Include="System.Net.Http" />
