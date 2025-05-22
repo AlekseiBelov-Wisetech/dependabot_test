@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/DependabotTest"
+    directory: "/"
     schedule:
       interval: "daily"
   - package-ecosystem: "dotnet-sdk"
