@@ -6,7 +6,8 @@ registries:
 updates:
   - package-ecosystem: nuget
     directories:
-      - "**/*"
+      - "/TestProject2"
+      - "/DependabotTest"
     registries:
       - public-nuget
     schedule:
