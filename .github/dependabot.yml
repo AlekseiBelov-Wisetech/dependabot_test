@@ -11,5 +11,5 @@ updates:
     registries:
       - public-nuget
     schedule:
-      interval: "daily"
+      interval: "monthly"
 
