@@ -4,8 +4,4 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 10
-    groups:
-      nuget-dependencies:
-        patterns:
-          - "*"
+    open-pull-requests-limit: 5
